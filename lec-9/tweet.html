@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat-Tweet</title>
+
+    <style>
+      .profile-picture {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100px;
+        vertical-align: middle;
+      }
+
+      .card {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 450px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .text-box {
+        border: none;
+        font-size: 16px;
+        vertical-align: middle;
+        width: 290px;
+        margin-left: 5px;
+      }
+
+      .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border-radius: 18px;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 0.15s;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 17px;
+        padding-right: 17px;
+        vertical-align: middle;
+      }
+
+      .tweet-button:hover {
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .tweet-button:active {
+        opacity: 0.75;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img class="profile-picture" src="cat.webp" alt="cat-img">
+      <input class="text-box" type="text" name="" id="" placeholder="What's happening?">
+      <button class="tweet-button">Tweet</button>
+    </div>
+  </body>
+</html>
