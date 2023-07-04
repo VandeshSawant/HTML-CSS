@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Practice 2</title>
+    <style>
+      div {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 15px;
+      }
+
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .profile-picture {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 50px;
+        margin-right: 15px;
+      }
+   
+      .description {
+        width: 150px;
+      }
+
+      button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        font-weight: bold;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 3px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flexbox">
+        <div class="image">
+          <img class="profile-picture" src="images/cat.jpg" alt="">
+        </div>
+        <div class="description">
+          <p><strong>Oliver</strong></p>
+          <p style="
+            font-size: 13px;
+            color: grey;
+            padding-top: 2px;
+            padding-bottom: 2px;">
+              the cat</p>
+          <p style="
+            font-size: 13px;
+            color: grey;">
+              Popular</p>
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div class="image">
+          <img class="profile-picture" src="images/cat3.webp" alt="">
+        </div>
+        <div class="description">
+          <p><strong>Mimi</strong></p>
+          <p style="
+            font-size: 13px;
+            color: grey;
+            padding-top: 2px;
+            padding-bottom: 2px;">
+              Sleepy cat</p>
+          <p style="
+            font-size: 13px;
+            color: grey;">
+              Popular</p>
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div class="image">
+          <img class="profile-picture" src="images/cat1.webp" alt="">
+        </div>
+        <div class="description">
+          <p><strong>Rex</strong></p>
+          <p style="
+            font-size: 13px;
+            color: grey;
+            padding-top: 2px;
+            padding-bottom: 2px;">
+              the meow</p>
+          <p style="
+            font-size: 13px;
+            color: grey;">
+              Popular</p>
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
