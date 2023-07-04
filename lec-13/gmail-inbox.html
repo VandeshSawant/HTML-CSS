@@ -1,0 +1,159 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Gmail Inbox</title>
+    
+    <style>
+
+      body {
+        margin-bottom: 100px;
+      }
+      div {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .container {
+        width: 350px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.206);
+        padding-left: 10px;
+        padding-right: 18px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+      }
+
+      .all-inbox {
+        font-size: 12px;
+        margin-bottom: 15px;
+        color: gray;
+      }
+
+      .flexbox-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .picture-container {
+        margin-right: 10px;
+        margin-left: 5px;
+      }
+
+      .profile-picture {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+      }
+
+      .flexbox-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        width: 300px;
+      }
+
+      .sender-name {
+        font-weight: bold;
+        margin-bottom: 2px;
+        font-size: 16px;
+      }
+
+      .time {
+        font-size: 11px;
+        color: gray;
+        padding-top: 5px;
+      }
+
+      .subject {
+        font-size: 14px;
+        font-weight: bold;
+        padding-bottom: 1px;
+      }
+
+      .mail-content {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      .space {
+        height: 90px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <p class="all-inbox">ALL INBOXES</p>
+
+      <div class="flexbox-1">
+        <div class="picture-container">
+          <img class="profile-picture" src="images/cat.jpg" alt="">
+        </div>
+        <div class="text-container">
+          <div class="flexbox-2">
+            <div class="sender-name">Chewy Promotions</div>
+            <div class="time">4:58PM</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="mail-content">Hey there! We're writting to tell you about our...</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="space"></div>
+
+    <div class="container">
+      <p class="all-inbox">ALL INBOXES</p>
+
+      <div class="flexbox-1">
+        <div class="picture-container">
+          <img class="profile-picture" src="images/cat.jpg" alt="">
+        </div>
+        <div class="text-container">
+          <div class="flexbox-2">
+            <div class="sender-name">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="subject">Biggest sales of the year!</div>
+          <div class="mail-content">Hey there! We're writting to tell you about our...</div>
+        </div>
+      </div>
+
+      <div class="flexbox-1">
+        <div class="picture-container">
+          <img class="profile-picture" src="images/dog.jpg" alt="">
+        </div>
+        <div class="text-container">
+          <div class="flexbox-2">
+            <div class="sender-name">Best Buy</div>
+            <div class="time">12:32 PM</div>
+          </div>
+          <div class="subject">Your Best Buy eReceipt</div>
+          <div class="mail-content">Thank you for shopping at Best Buy, here is...</div>
+        </div>
+      </div>
+
+      <div class="flexbox-1">
+        <div class="picture-container">
+          <img class="profile-picture" src="images/cat1.webp" alt="">
+        </div>
+        <div class="text-container">
+          <div class="flexbox-2">
+            <div class="sender-name">Netflix</div>
+            <div class="time">9:00 AM</div>
+          </div>
+          <div class="subject">Here's what coming soon to Netflix</div>
+          <div class="mail-content">Brand new movies and shows, old favorites...</div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

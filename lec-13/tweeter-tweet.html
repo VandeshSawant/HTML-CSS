@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweeter tweet</title>
+
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .container {
+        width: 450px;
+      }
+
+      .profile-picture {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .user-image {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .flexbox-1 {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .username {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .tweet-message {
+        margin-bottom: 15px;
+      }
+
+      .name-tag {
+        font-weight: normal;
+        color: gray;
+      }
+
+      .embedded-link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-color: rgba(0, 0, 0, 0.166);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 20px;
+        width: 345px;
+        overflow: hidden;
+      }
+
+      .gray {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(216, 216, 216);
+      }
+
+      .youtube-link {
+        padding-left: 10px;
+        width: 250px;
+      }
+
+      .youtube-com {
+        color: gray;
+        padding-bottom: 5px;
+      }
+
+      .video-title {
+        line-height: 22px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flexbox-1">
+        <div class="profile-picture">
+          <img class="user-image" src="images/cat.jpg" alt="">
+        </div>
+
+        <div class="text-container">
+          <div class="username">
+            supersimple.dev <span class="name-tag">@SuperSimpleDev</span>
+          </div>
+          <div class="tweet-message">
+            What is backend web development? A complete overview. New video is up!
+          </div>
+          <div class="embedded-link">
+            <div class="gray">
+            </div>
+            <div class="youtube-link">
+              <p class="youtube-com">youtube.com</p>
+              <p class="video-title">Backend web development - a complete overview (2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
