@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facebook header</title>
+
+    <style>
+      div {
+        font-family: Arial;
+      }
+
+      body {
+        height: 3000px;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 50px;
+        padding-left: 50px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .profile-picture {
+        margin-right: 10px;
+      }
+
+      .profile-image {
+        height: 46px;
+        width: 46px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .name {
+        font-weight: bold;
+      }
+
+      .add-friend {
+        background-color: rgb(24, 119, 242);
+        color: white;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        margin-right: 3px;
+      }
+
+      .message {
+        background-color: rgb(234, 234, 234);
+        font-weight: bold;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="profile">
+        <div class="profile-picture">
+          <img class="profile-image" src="images/cat.jpg" alt="">
+        </div>
+        <div class="name">
+          Oliver Cat
+        </div>
+      </div>
+      <div class="header-buttons">
+        <button class="add-friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Discord</title>
+
+    <style>
+      .profiles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 80px;
+        background-color: rgb(33, 33, 33);
+      }
+      .profile-picture {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 30px;
+        margin-bottom: 10px;
+      }
+
+      body {
+        padding-left: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 3000px;
+      }
+
+      .channels {
+        width: 175px;
+        padding-top: 20px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 80px;
+        padding-left: 20px;
+        background-color: rgb(55, 55, 55);
+      }
+
+      .info-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+
+      .info {
+        color: rgb(233, 233, 233);
+        font-size: 14px;
+      }
+
+      .add {
+        font-size: 27px;
+        color: rgb(150, 150, 150);
+      }
+      
+      .rooms {
+        color: rgb(150, 150, 150);
+        margin-top: 0px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profiles">
+      <img class="profile-picture" src="images/cat.jpg" alt="">
+      <img class="profile-picture" src="images/cat1.webp" alt="">
+      <img class="profile-picture" src="images/dog.jpg" alt="">
+    </div>
+    <div class="channels">
+      <div class="info-group">
+        <div class="info">INFO</div>
+        <div class="add">&#43</div>
+      </div>
+      <div>
+        <p  class="rooms"># new-videos</p>
+        <p  class="rooms"># updates</p>
+        <p  class="rooms"># faq</p>
+      </div>
+    </div>
+  </body>
+</html>
