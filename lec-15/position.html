@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position</title>
+
+    <style>
+
+      body {
+        height: 2000px;
+      }
+
+      .close-button {
+        position: absolute;
+        top: -20px;
+        left: -20px;
+      }
+
+      .close {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        border: none;
+        font-size: 20px;
+      }
+
+      .gray-container {
+        height: 180px;
+        width: 320px;
+        background-color: gray;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .time-stamp {
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: Arial;
+        font-size: 18px;
+      }
+
+      .teddy {
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+      }
+      /* .product {
+        position: relative;
+        display: inline-block;
+      } */
+
+      .product-image {
+        position: relative;
+        display: inline-block;
+      }
+      .discount {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        font-family: Arial;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .add-to-cart {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.742);
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .cart-button {
+        background-color: white;
+        font-weight: 700;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="product-image">
+      <img class="teddy" src="shirt.jpg" alt="">
+      <div class="discount">20% OFF</div>
+      <div class="add-to-cart">
+        <button class="cart-button">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="gray-container">
+      <div class="close-button">
+        <button class="close">X</button>
+      </div>
+      <div class="time-stamp">0:29</div>
+    </div>
+  </body>
+</html>
